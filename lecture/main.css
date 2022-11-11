@@ -4,6 +4,12 @@ body {
 
 #product-overview {
     background: #ff1b68;
+    padding: 20px;
+    border: 5px black solid;  /*this is a shortcut for bellow*/
+    /* border-width: 5px;
+    border-color: black;
+    border-style: solid; */
+    margin: 20px;
 }
 
 .section-title {
