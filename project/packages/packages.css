@@ -17,7 +17,8 @@ main {
   margin: 16px 0;
   border: 4px solid #0e4f1f;
   border-left: none;
-  position: relative;
+  position: relative; 
+  z-index: 0;
 }
 
 .package:hover,
@@ -43,9 +44,10 @@ main {
   color: white;
   background: #ff5454;
   padding: 8px;
+  z-index: 10;
 }
 
-.package__title {
+.package__title { 
   color: inherit;
 }
 
